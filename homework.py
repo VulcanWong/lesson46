@@ -1,13 +1,14 @@
 class expression:
-    emotions = ['happy', 'sad', 'angry', 'super angry', 'crazy']
     def __init__(self):
-        print("happy")
+        num1 = 1
+        print(num1)
     def __init__(self):
-        print("sad")
+        num2 = 2
+        print(num2)
     def __init__(self):
-        print("angry")
-    def __init__(self):
-        print("super angry")
-    def __init__(self):
-        print("crazy")
-    print(emotions)
+        num3 = 3
+        print(num3)
+    number = ['num1', 'num2', 'num3']
+    popitem = number.pop()
+    print(popitem)
+    print(number)
